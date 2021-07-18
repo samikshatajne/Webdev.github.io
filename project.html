@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+        .main{
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+        }
+        .logo img{
+            position: relative;
+            left: 30px;
+            top: 0px;
+            height: 90px;
+        }
+        
+        ul{
+            display: flex;
+            padding: 12px;
+            position: fixed;
+            left: 500px;
+        }
+        ul li{
+            list-style: none;
+        }
+        ul li a{
+            text-decoration: none;
+            color: gray;
+            padding: 12px;
+            margin: 12px;
+            list-style: none;
+            font-weight: 500;
+            font-size: 3vmin;
+        }
+        .hey{
+            color: rgb(16, 20, 20);
+            font-weight: 500;
+            position: absolute;
+            right: 30px;
+            top: 10px;
+            font-size: 2.5vmin;
+        }
+        .bet{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            margin-left: 100px;
+            margin-top: 100px;
+        }
+        .right img{
+            width: 400px;
+            height: 500px;
+            display: block;
+            margin: auto;
+        }
+       .left h1{
+           margin-bottom: 10px;
+           font-size: 6vmin;
+       }
+       .left{
+           margin-right: 200px;
+       }
+       .btn{
+           background-color: rgb(70, 69, 71);
+           padding: 12px 30px;
+           border-radius: 20px;
+       }
+       .left a{
+           display: inline-block;
+        margin-top: 20px;
+        text-decoration: none;
+        color: whitesmoke;
+        
+       }
+       .left a:hover{
+           background-color: rgb(116, 110, 110);
+       }
+    </style>
+</head>
+
+<body>
+    <section class="main">
+        <a href="#" class="logo">
+            <img src="logo2.png" alt="logo">
+        </a>
+        <nav>
+            <ul>
+                <li class="menu"><a href="#">Home</a></li>
+                <li class="menu"><a href="#">Services</a></li>
+                <li class="menu"><a href="#">Clients</a></li>
+                <li class="menu"><a href="#">Menu</a></li>
+                <li class="menu"><a href="#">Contacts</a></li>
+            </ul>
+        </nav>
+        <a href="#" class="hey"><strong>Say Hi!</strong></a>
+    </section>
+    <header>
+        <div class="bet">
+            <div class="right">
+                <img src="https://images.pexels.com/photos/3778876/pexels-photo-3778876.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500">
+            </div>
+            <div class="left">
+                <h1>Hello,I am the Rock</h1>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatum voluptatibus dolor, impedit deleniti iste neque.</p>
+                <a href="#" class="btn">READ MORE</a>
+            </div>
+        </div>
+    </header>
+</body>
+
+</html>
